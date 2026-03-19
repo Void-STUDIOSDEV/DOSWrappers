@@ -116,10 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias search='sudo apt update'
-alias u='sudo apt update'
-alias fix='sudo apt --fix-broken install'
-alias update-all='sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean'
+#The wrappers start here.
 alias dir='ls'
 alias cls='clear'
 alias chdir='cd'
@@ -127,4 +124,3 @@ alias md='mkdir'
 alias copy='cp'
 alias del='rm'
 alias del-dir='rm -r'
-
