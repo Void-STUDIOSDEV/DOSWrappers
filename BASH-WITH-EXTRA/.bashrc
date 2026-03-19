@@ -116,6 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#Below are the alias, I have some extras
 alias search='sudo apt update'
 alias u='sudo apt update'
 alias fix='sudo apt --fix-broken install'
