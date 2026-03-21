@@ -15,5 +15,5 @@ DEL-DIR [rm -r] = Deletes a directory, not a standard DOS command
 
 
 ---WARNINGS---
-STANDARD file might work in other non-APT package manager system out-of-box, but the BASH=WITH-EXTRA file will either have to have 
+STANDARD file might work in other non-APT package manager system out-of-box, but the BASH-WITH-EXTRA file will either have to have 
 the commands changed or not work at all. The BASH-WITH-EXTRA file is not out-of-box.
